@@ -1,8 +1,12 @@
 # Different themes have different required and optional fields, look at the documentation for your intended theme to see which you need and/or are available
 name: Your Name
+background: https://images.unsplash.com/photo-1544198365-f5d60b6d8190?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80 # An image to use as a background for the site
+avatar: avatar.png # The avatar/profile picture of the person's site
 email: email@example.com
 phone: 123-123-1234
-biography: A vivid and succinct description of yourself.
+biography: | # Used to allow the description to go across multiple lines
+  A vivid and succinct description of yourself.
+  This biography is so important it spans multiple lines.
 role: Your job role/title (i.e. CEO)
 company: Company name
 address: 123 first street SE
@@ -17,3 +21,4 @@ social:
   facebook: your id # go to facebook and go to your profile, your ID will be at the end of the url i.e. www.facebook.com/<your id>
 examples: true # If you want to include the example.md files in your final build (good for developing new themes)
 resume: false # If you want to generate the resume section
+theme: aerial # The theme you want to use for your site
