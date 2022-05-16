@@ -21,7 +21,7 @@ social:
   facebook: your id # go to facebook and go to your profile, your ID will be at the end of the url i.e. www.facebook.com/<your id>
   url: https://kieranwood.ca # The URL the site will be hosted on (used by resume)
 examples: true # If you want to include the example.md files in your final build (good for developing new themes)
-theme: dimension # The theme you want to use for your site
+theme: base # The theme you want to use for your site
 ua_code: UA-000000-0 # The UA code for google analytics
 resume: false # Whether to generate the resume page or not
 ignore_exif_data : false # Whether to ignore exif data for gallery images
