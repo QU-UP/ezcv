@@ -16,12 +16,14 @@ social:
   youtube: /channel/channel-ID or custom_url # Your custom url (i.e. https://youtube.com/mkbhd would be just mkbhd) or see this guide to find your channel ID: https://support.google.com/youtube/answer/3250431?hl=en
   instagram: username # Your username
   twitter: handle # Your handle (without the @)
+  x: handle # Your handle (without the @)
   snapchat: username # Username others use to add you
   linkedin: name # go to linkedin and go to your profile, your name will be at the end of the url i.e. www.linkedin.com/in/<name>
   facebook: your id # go to facebook and go to your profile, your ID will be at the end of the url i.e. www.facebook.com/<your id>
   url: https://kieranwood.ca # The URL the site will be hosted on (used by resume)
 examples: true # If you want to include the example.md files in your final build (good for developing new themes)
 theme: base # The theme you want to use for your site
-ua_code: UA-000000-0 # The UA code for google analytics
+ga4_id: G-XXXXXXXX # The tracking tag for your google analytics 4 data stream
+ua_code: UA-000000-0 # DEPRECATED: The UA code for google analytics
 resume: false # Whether to generate the resume page or not
 ignore_exif_data : false # Whether to ignore exif data for gallery images
